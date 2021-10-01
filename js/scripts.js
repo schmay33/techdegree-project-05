@@ -52,6 +52,7 @@ function addSearch() {
  * @param {Event} e 
  */
 function search(e) {
+    e.preventDefault();
     const val = e.target[0].value;
     const cards = document.getElementsByClassName("card");
     let foundUsers = [];
