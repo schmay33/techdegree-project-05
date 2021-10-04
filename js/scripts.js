@@ -129,9 +129,7 @@ function addUsersToPage() {
                     <p class="modal-text">${user.address()}</p>
                     <p class="modal-text">Birthday: ${user.birthday}</p>
                 </div>
-            </div>
-
-            // IMPORTANT: Below is only for exceeds tasks 
+            </div> 
             <div class="modal-btn-container">
                 <button type="button" id="modal-prev" class="modal-prev btn">Prev</button>
                 <button type="button" id="modal-next" class="modal-next btn">Next</button>
